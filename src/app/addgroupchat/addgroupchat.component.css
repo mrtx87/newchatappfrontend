@@ -1,0 +1,124 @@
+.contacts-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow: auto;
+    height: 61.5vh;
+}
+
+.contacts-row{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 75px;
+    padding: 0px 5px;
+    justify-content: space-between;
+}
+
+.contact-text-container{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 55px;
+    margin-left: 5px;
+    border-bottom: 1px solid #F1F1F1;
+}
+
+.contacts-row:hover, .row-item:hover {
+    background-color: #F1F1F1;
+}
+
+.contacts-row:hover .create-contact-icon-container{
+    display: flex;
+}
+
+.left-panel {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #FEFEFE;
+    border-right: #DFDDDE solid 2px;
+}
+
+.user-panel {
+    width: 100%;
+    display: flex;
+    min-height: 75px;
+    height: 75px;
+    flex-direction: row;
+    align-items: center;
+    background-color: var(--highlight-color);
+}
+
+.search-contact-container{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    padding: 0px 5px;
+    background-color: #F8F8F8;
+}
+
+.row-item {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 75px;
+    padding: 0px 5px;
+    justify-content: space-between
+}
+
+.next-step-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-contact-inputfield{
+    border: none;
+    border-radius: 7px;
+    width: 85%;
+    height: 70%;
+    margin-top: 8px;
+    margin-left: 7%;
+    padding-left: 25px;
+}
+
+.add-user-2-group {
+    font-size:30px; 
+    color:white;
+}
+
+.added-user {
+     display:flex; 
+     flex-direction:column; 
+     align-items: center;
+}
+
+
+.preview {
+    display: flex;
+    background: var( --white-grey);
+    border-radius: 25px;
+}
+
+.profilimage {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 0 10px;
+}
+
+.added-user span {
+    line-height: 25px;
+    margin: 0 25px 0 8px;
+}
+
+.remove {
+    display:block;
+  box-sizing:border-box;
+  margin: 7px 9px 0 0;
+  width:10px;
+  height:10px;
+  background: -webkit-linear-gradient(-45deg, transparent 0%, transparent 46%, var( --light-grey) 46%,  var( --light-grey) 56%,transparent 56%, transparent 100%), -webkit-linear-gradient(45deg, transparent 0%, transparent 46%, var( --light-grey) 46%,  var( --light-grey) 56%,transparent 56%, transparent 100%);
+}
